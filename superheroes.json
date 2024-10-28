@@ -1,0 +1,34 @@
+[
+    {
+        "nombre": "Superman",
+        "vuelo": "s\u00ed",
+        "fuerza": "alta",
+        "magia": "no",
+        "tecnologia": "no",
+        "origen_extraterrestre": "s\u00ed"
+    },
+    {
+        "nombre": "Batman",
+        "vuelo": "no",
+        "fuerza": "media",
+        "magia": "no",
+        "tecnologia": "s\u00ed",
+        "origen_extraterrestre": "no"
+    },
+    {
+        "nombre": "Wonder Woman",
+        "vuelo": "s\u00ed",
+        "fuerza": "alta",
+        "magia": "no",
+        "tecnologia": "no",
+        "origen_extraterrestre": "no"
+    },
+    {
+        "nombre": "Constantine",
+        "vuelo": "no",
+        "fuerza": "no",
+        "magia": "no",
+        "tecnologia": "no",
+        "origen_extraterrestre": "no"
+    }
+]
