@@ -3,10 +3,15 @@ import json
 
 # Base de datos de superhéroes con sus características
 superheroes = [
-    {"nombre": "Superman", "vuelo": "sí", "fuerza": "alta", "magia": "no", "tecnologia": "no", "origen_extraterrestre": "sí"},
-    {"nombre": "Batman", "vuelo": "no", "fuerza": "media", "magia": "no", "tecnologia": "sí", "origen_extraterrestre": "no"},
-    {"nombre": "Wonder Woman", "vuelo": "sí", "fuerza": "alta", "magia": "no", "tecnologia": "no", "origen_extraterrestre": "no"},
-    # Otros héroes...
+    {"nombre": "Superman", "vuelo": "sí", "fuerza": "sí", "magia": "no", "tecnologia": "no", "origen_extraterrestre": "sí"},
+    {"nombre": "Batman", "vuelo": "no", "fuerza": "no", "magia": "no", "tecnologia": "sí", "origen_extraterrestre": "no"},
+    {"nombre": "Wonder Woman", "vuelo": "sí", "fuerza": "sí", "magia": "no", "tecnologia": "no", "origen_extraterrestre": "no"},
+    {"nombre": "Flash", "vuelo": "no", "fuerza": "no", "magia": "no", "tecnologia": "no", "velocidad": "sí"},
+    {"nombre": "Green Lantern", "vuelo": "sí", "fuerza": "sí", "magia": "no", "tecnologia": "sí", "origen_extraterrestre": "no"},
+    {"nombre": "Aquaman", "vuelo": "no", "fuerza": "sí", "magia": "no", "tecnologia": "no", "naturaleza": "sí"},
+    {"nombre": "Martian Manhunter", "vuelo": "sí", "fuerza": "sí", "magia": "no", "tecnologia": "no", "origen_extraterrestre": "sí"},
+    {"nombre": "Shazam", "vuelo": "sí", "fuerza": "sí", "magia": "sí", "tecnologia": "no", "origen_extraterrestre": "no"},
+    {"nombre": "Cyborg", "vuelo": "no", "fuerza": "sí", "magia": "no", "tecnologia": "sí", "origen_extraterrestre": "no"}
 ]
 
 # Diccionario que relaciona preguntas con características
@@ -14,7 +19,9 @@ preguntas = {
     "¿El superhéroe puede volar?": "vuelo",
     "¿El superhéroe tiene fuerza sobrehumana?": "fuerza",
     "¿El superhéroe utiliza magia?": "magia",
+    "¿El superhéroe tiene habilidades sobrehumanas de velocidad?": "velocidad",
     "¿El superhéroe tiene una conexión con la tecnología?": "tecnologia",
+    "¿El superhéroe tiene una conexión con la naturaleza o los animales?": "naturaleza",
     "¿El superhéroe es de origen extraterrestre?": "origen_extraterrestre"
 }
 
